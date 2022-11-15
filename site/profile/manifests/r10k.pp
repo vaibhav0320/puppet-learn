@@ -1,6 +1,6 @@
 class profile::r10k{
   class { 'r10k':
-    remote => 'https://github.com/vaibhav0320/puppet-learn'.
+    remote => 'https://github.com/vaibhav0320/puppet-learn',
    }
    
    class { 'r10k::webhook::config':
