@@ -1,6 +1,6 @@
 node default{
+}
 
-	file {'/root/README':
-		ensure => file,
-	}
+node 'puppet.local' {
+	include role::master_server
 }
